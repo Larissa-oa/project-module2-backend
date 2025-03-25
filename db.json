@@ -1,5 +1,5 @@
 {
-	"users": [
+	"recipes": [
 		{
 			"id": 1,
 			"firstname": "Josh",
@@ -13,27 +13,191 @@
 			"hobbies": ["Lord of the Rings", "DnD"]
 		}
 	],
-	"playSessions": [
-		{
-			"id": 1,
-			"userId": 1,
-			"game": "LoL",
-			"playTime": 0,
-			"description": "I need to try out this one so that I can lose my life and my soul"
-		},
-		{
-			"id": 2,
-			"userId": 1,
-			"game": "OW",
-			"playTime": 100,
-			"description": "Finally I had a win in the end"
-		},
-		{
-			"id": 3,
-			"userId": 2,
-			"game": "DnD",
-			"playTime": 600,
-			"description": "I finished my turn in Civ"
-		}
+	"events": [
+		[
+			{
+			  "Id": "f1c2b8ff-e8b7-4a22-8c4b-f0fc4f8e4dbd",
+			  "Title": "Harry Potter Trivia Night",
+			  "Date": "2025-04-05",
+			  "Time": "19:00",
+			  "Description": "A fun-filled trivia night to test your knowledge of all things Harry Potter!",
+			  "Location": "In-Person",
+			  "City": "London",
+			  "Address": "Platform 9¾, King's Cross Station",
+			  "Link": "",
+			  "Timezone": "UTC+00:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "e8b329a8-d344-4e6c-9f2b-b28cd9e2a1f7",
+			  "Title": "Potterheads Meetup: Wand Duels",
+			  "Date": "2025-05-10",
+			  "Time": "15:00",
+			  "Description": "Meet other Potterheads and duel it out with your wands in this exciting event!",
+			  "Location": "In-Person",
+			  "City": "Edinburgh",
+			  "Address": "The Leaky Cauldron, Diagon Alley",
+			  "Link": "",
+			  "Timezone": "UTC+01:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "c28973b5-2767-4387-b396-2bb7f54f42a2",
+			  "Title": "Muggle Studies: How to Survive Hogwarts",
+			  "Date": "2025-06-01",
+			  "Time": "18:00",
+			  "Description": "Join us for a lecture on how to survive your first year at Hogwarts!",
+			  "Location": "Online",
+			  "City": "",
+			  "Address": "",
+			  "Link": "https://zoom.us/meeting/123456789",
+			  "Timezone": "UTC+02:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "a29f6fae-45f6-4239-8005-473ccd22ef0b",
+			  "Title": "Clown College Graduation Ceremony",
+			  "Date": "2025-07-15",
+			  "Time": "14:00",
+			  "Description": "It's the grand graduation ceremony of our hilarious clown college. Come laugh with us!",
+			  "Location": "In-Person",
+			  "City": "Paris",
+			  "Address": "Funny Clown Circus, Rue de La Gag",
+			  "Link": "",
+			  "Timezone": "UTC+02:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "cb589d1a-7c77-4b2b-832b-27c5fc67b73d",
+			  "Title": "The Great Potato Sack Race",
+			  "Date": "2025-08-10",
+			  "Time": "12:00",
+			  "Description": "Join the most exciting potato sack race competition ever. Winner gets a lifetime supply of mashed potatoes!",
+			  "Location": "In-Person",
+			  "City": "New York",
+			  "Address": "Central Park, 5th Avenue",
+			  "Link": "",
+			  "Timezone": "UTC-04:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "bb2b49be-8a98-4f87-9b7d-b5b7206a3425",
+			  "Title": "Online Yoga for Lazy People",
+			  "Date": "2025-04-20",
+			  "Time": "10:00",
+			  "Description": "A relaxed yoga session, perfect for people who don't want to move too much.",
+			  "Location": "Online",
+			  "City": "",
+			  "Address": "",
+			  "Link": "https://zoom.us/meeting/234567890",
+			  "Timezone": "UTC+01:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "b847f998-8c0d-48b5-ae9a-60d3700e2c85",
+			  "Title": "Superhero Costume Party",
+			  "Date": "2025-09-12",
+			  "Time": "19:00",
+			  "Description": "Dress up as your favorite superhero (or villain) for a night of fun and dancing!",
+			  "Location": "In-Person",
+			  "City": "Los Angeles",
+			  "Address": "Hollywood Boulevard, Event Center",
+			  "Link": "",
+			  "Timezone": "UTC-07:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "c3b1db82-72b7-4b9f-a9c5-b3b1ad3fcb5a",
+			  "Title": "Pillow Fight Championship",
+			  "Date": "2025-10-03",
+			  "Time": "16:00",
+			  "Description": "A championship to determine the world's greatest pillow fighter. Prepare your pillows!",
+			  "Location": "In-Person",
+			  "City": "Tokyo",
+			  "Address": "Shibuya Park",
+			  "Link": "",
+			  "Timezone": "UTC+09:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "9c31f149-49e2-4c0e-b3f4-d56a2cf66e87",
+			  "Title": "International Ice Cream Tasting",
+			  "Date": "2025-06-25",
+			  "Time": "13:00",
+			  "Description": "Taste the best ice creams from around the world in one event!",
+			  "Location": "In-Person",
+			  "City": "Rome",
+			  "Address": "Gelato Fest, Piazza del Popolo",
+			  "Link": "",
+			  "Timezone": "UTC+02:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "f0579b39-51a5-4517-a4bb-d1e0e2bc7fc4",
+			  "Title": "Alien Abduction Support Group",
+			  "Date": "2025-11-15",
+			  "Time": "17:00",
+			  "Description": "Do you think you've been abducted by aliens? Join others like you in a supportive environment.",
+			  "Location": "Online",
+			  "City": "",
+			  "Address": "",
+			  "Link": "https://zoom.us/meeting/345678901",
+			  "Timezone": "UTC+00:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "5a3e2a3b-67a4-47b2-9ad1-0c94a6e93bc6",
+			  "Title": "World's Largest Group Hug",
+			  "Date": "2025-12-20",
+			  "Time": "10:00",
+			  "Description": "A massive event where we all gather to give the biggest group hug ever.",
+			  "Location": "In-Person",
+			  "City": "Sydney",
+			  "Address": "Sydney Opera House Lawn",
+			  "Link": "",
+			  "Timezone": "UTC+10:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "14f56e9d-b94f-4d89-b7fb-1be33f6940f0",
+			  "Title": "Cactus Appreciation Day",
+			  "Date": "2025-05-15",
+			  "Time": "09:00",
+			  "Description": "A day dedicated to appreciating the beauty and resilience of cacti. Bring your favorite cactus!",
+			  "Location": "In-Person",
+			  "City": "Phoenix",
+			  "Address": "Cactus Garden, Desert Botanical Garden",
+			  "Link": "",
+			  "Timezone": "UTC-07:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "62f49a5d-3de4-426b-9b0f-9bc56f926e8e",
+			  "Title": "Cheese Festival: The Big Cheese-Off",
+			  "Date": "2025-08-25",
+			  "Time": "11:00",
+			  "Description": "The biggest cheese festival with tastings, contests, and more. Let's get cheesy!",
+			  "Location": "In-Person",
+			  "City": "Zurich",
+			  "Address": "Swiss Cheese Museum",
+			  "Link": "",
+			  "Timezone": "UTC+01:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			},
+			{
+			  "Id": "f8f15657-1d77-4ac7-b37c-5b53f3d276ef",
+			  "Title": "The Great Pancake Flipping Contest",
+			  "Date": "2025-04-12",
+			  "Time": "10:00",
+			  "Description": "Compete in the most epic pancake-flipping contest of all time. Flip your way to victory!",
+			  "Location": "In-Person",
+			  "City": "Chicago",
+			  "Address": "Wrigley Field",
+			  "Link": "",
+			  "Timezone": "UTC-05:00",
+			  "timestamp": "2025-03-25T00:00:00.000Z"
+			}
+		  ]
+		  
 	]
 }
